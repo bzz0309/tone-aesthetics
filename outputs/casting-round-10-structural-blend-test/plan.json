@@ -1,0 +1,11 @@
+{
+  "round": 10,
+  "purpose": "validate a reusable structural facial blending method before adding it to taste.md",
+  "edit_target": "../casting-round-09-three-characters-plus-styling/character-01-cool-feline-round-v2.png",
+  "outputs": [
+    "character-01-structural-blend-test-v1.png",
+    "character-01-structural-blend-test-v2-short-midface-round-cheeks.png"
+  ],
+  "status": "awaiting_human_review",
+  "identity_policy": "original fictional adult East Asian woman; celebrity references abstracted into non-identifying structural traits only"
+}

@@ -1,0 +1,22 @@
+{
+  "round": 11,
+  "purpose": "validate the reusable structural blend method across the three-character roster",
+  "method": "identity-preserving edits with one face-structure specification per character and identical neutral casting conditions",
+  "characters": [
+    {
+      "id": "01-cool-feline",
+      "asset": "../casting-round-10-structural-blend-test/character-01-structural-blend-test-v2-short-midface-round-cheeks.png",
+      "status": "candidate"
+    },
+    {
+      "id": "02-androgynous-signal",
+      "asset": "character-02-androgynous-signal-v2.png",
+      "status": "awaiting_human_review"
+    },
+    {
+      "id": "03-natural-current",
+      "asset": "character-03-natural-current-v2.png",
+      "status": "awaiting_human_review"
+    }
+  ]
+}

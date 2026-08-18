@@ -1,0 +1,13 @@
+{
+  "round": "casting-round-07-five-routes",
+  "status": "awaiting_human_selection",
+  "scope": "five original adult Asian women for distinct advertising themes",
+  "routes": [
+    {"id": "01", "name": "Cool Feline", "file": "route-01-cool-feline-lob.png"},
+    {"id": "02", "name": "Androgynous Signal", "file": "route-02-androgynous-signal-ponytail.png"},
+    {"id": "03", "name": "Natural Current", "file": "route-03-natural-longhair.png"},
+    {"id": "04", "name": "Asian Nocturne", "file": "route-04-asian-nocturne-volume.png"},
+    {"id": "05", "name": "Sweet Voltage", "file": "route-05-y2k-sweet-voltage.png"}
+  ],
+  "next_action": "User marks each route keep, refine, or reject before identity lock assets."
+}

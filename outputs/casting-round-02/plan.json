@@ -1,0 +1,30 @@
+{
+  "round": 2,
+  "status": "pending_user_confirmation",
+  "purpose": "Add two structurally distinct adult women to the same Gen-Z brand-film character roster",
+  "candidates": [
+    {
+      "id": "D",
+      "name": "DIAMOND MONO",
+      "file": "candidate-d-diamond-mono.png",
+      "core_axes": [
+        "broad diamond face and high lateral cheekbones",
+        "slightly close-set long hooded almond monolids",
+        "broader low-to-moderate nose and compact mouth",
+        "short flat-rounded chin"
+      ]
+    },
+    {
+      "id": "E",
+      "name": "SOFT SQUARE",
+      "file": "candidate-e-soft-square.png",
+      "core_axes": [
+        "compact short round-square face",
+        "low broad cheekbones and wide rounded jaw",
+        "noticeably wider-set almond eyes",
+        "short midface and wider squared nose tip"
+      ]
+    }
+  ],
+  "next_step": "Generate canonical multi-angle identity sheets only after user confirmation"
+}

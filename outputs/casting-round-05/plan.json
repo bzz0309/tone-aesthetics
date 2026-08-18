@@ -1,0 +1,9 @@
+{
+  "round": "casting-round-05",
+  "candidate": "D2-V3",
+  "file": "candidate-d2-v3-feline-charisma.png",
+  "base": "../casting-round-04/candidate-d2-v2-natural-current.png",
+  "status": "awaiting_human_selection",
+  "design_direction": "original feline charisma; celebrity-adjacent traits abstracted without identity copying",
+  "next_action": "Confirm, refine one feature only, or reject before identity lock."
+}

@@ -1,0 +1,22 @@
+{
+  "round": 3,
+  "replaces_round": 2,
+  "status": "pending_user_confirmation",
+  "reason": "Round 02 drifted outside the approved A/C beauty and fashion-quality band",
+  "aesthetic_anchors": [
+    "../casting-round-01/candidate-a-linear-calm.png",
+    "../casting-round-01/candidate-c-quiet-icon.png"
+  ],
+  "candidates": [
+    {
+      "id": "D2",
+      "name": "SLEEK ARC",
+      "file": "candidate-d2-sleek-arc.png"
+    },
+    {
+      "id": "E2",
+      "name": "SOFT CURRENT",
+      "file": "candidate-e2-soft-current.png"
+    }
+  ]
+}

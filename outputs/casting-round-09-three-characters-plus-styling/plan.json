@@ -1,0 +1,17 @@
+{
+  "round": "casting-round-09-three-characters-plus-styling",
+  "status": "awaiting_human_selection",
+  "active_characters": [
+    {"id": "01", "file": "character-01-cool-feline-round-v2.png", "status": "candidate"},
+    {"id": "02", "file": "character-02-androgynous-signal.png", "status": "candidate"},
+    {"id": "03", "file": "character-03-natural-current.png", "status": "candidate"}
+  ],
+  "styling_modules": [
+    {"id": "y2k", "file": "styling-y2k-on-character-01.png", "identity_source": "01"}
+  ],
+  "removed": [
+    {"id": "04", "status": "rejected_by_user"},
+    {"id": "05", "status": "retired_as_identity_converted_to_styling"}
+  ],
+  "next_action": "Confirm character 01 facial correction; then review characters 02 and 03 before identity-lock assets."
+}

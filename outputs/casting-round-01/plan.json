@@ -1,0 +1,56 @@
+{
+  "round": 1,
+  "status": "pending_user_selection",
+  "purpose": "Select one original face before generating turnarounds, expressions and wardrobe looks",
+  "shared_style": {
+    "age": "24-28 adult",
+    "region": "East Asian",
+    "hair": "natural black razor-layered bob/lob with sparse piecey fringe",
+    "makeup": "sheer semi-matte skin, soft taupe eye definition, muted dusty-rose lips",
+    "framing": "4:5 chest-up casting portrait, eye level, 85mm perspective",
+    "mood": "quiet, intelligent, restrained, subtly androgynous"
+  },
+  "reference_images": [
+    "../reference_faces/ref-01.jpg",
+    "../reference_faces/ref-02.jpg",
+    "../reference_faces/ref-04.jpg",
+    "../reference_faces/ref-05.jpg",
+    "../reference_faces/ref-07.jpg"
+  ],
+  "candidates": [
+    {
+      "id": "A",
+      "name": "LINEAR CALM",
+      "file": "candidate-a-linear-calm.png",
+      "structural_axes": [
+        "softly elongated oval face",
+        "medium-high non-flared cheekbones",
+        "medium-spaced long narrow almond eyes",
+        "gently straight jaw and short blunt-rounded chin"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "URBAN SCULPTED",
+      "file": "candidate-b-urban-sculpted.png",
+      "structural_axes": [
+        "shorter and broader oval face",
+        "wider upper cheekbones and firmer near-square jaw",
+        "slightly closer narrow eyes",
+        "shorter nose and broader mouth"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "QUIET ICON",
+      "file": "candidate-c-quiet-icon.png",
+      "structural_axes": [
+        "longer narrow rectangular-oval face",
+        "lower cheekbone prominence and elongated midface",
+        "slightly wider-set long almond eyes",
+        "longer nose, straighter jaw and longer blunt chin"
+      ]
+    }
+  ],
+  "next_step": "User selects A, B or C; selected face receives a targeted canonical rerender before dependent assets"
+}

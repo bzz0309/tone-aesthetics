@@ -1,0 +1,13 @@
+{
+  "round": "casting-round-08-reference-mapped",
+  "status": "awaiting_human_selection",
+  "routes": [
+    {"id": "01", "references": [1, 2], "file": "route-01-cool-feline-long-straight.png", "action": "refined"},
+    {"id": "02", "references": [3, 4, 6], "file": "route-02-androgynous-platinum-wolf-lob.png", "action": "regenerated"},
+    {"id": "03", "references": [5, 7], "file": "route-03-natural-longhair.png", "action": "kept"},
+    {"id": "04", "references": [], "file": "route-04-asian-nocturne-volume.png", "action": "kept_pending_references"},
+    {"id": "05", "references": [8], "file": "route-05-y2k-blue-panel-longhair.png", "action": "refined"}
+  ],
+  "unassigned_references": [9],
+  "next_action": "Human review each route; provide dedicated references for route 04 if adjustment is desired."
+}

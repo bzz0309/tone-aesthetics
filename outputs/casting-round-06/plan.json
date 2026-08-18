@@ -1,0 +1,38 @@
+{
+  "round": "casting-round-06",
+  "status": "awaiting_human_selection",
+  "global_casting_scope": "adult Asian women age 18-30",
+  "routes": [
+    {
+      "id": "01",
+      "name": "Rounded Feline Lob",
+      "file": "route-01-rounded-feline-lob.png",
+      "hair": "center-part collarbone lob"
+    },
+    {
+      "id": "02",
+      "name": "Sleek Signal",
+      "file": "route-02-sleek-signal-ponytail.png",
+      "hair": "sleek high ponytail"
+    },
+    {
+      "id": "03",
+      "name": "Soft Pulse Y2K",
+      "file": "route-03-soft-pulse-long-waves.png",
+      "hair": "long waves with airy fringe"
+    },
+    {
+      "id": "04",
+      "name": "Nocturne Volume",
+      "file": "route-04-nocturne-volume-asian.png",
+      "hair": "long voluminous side-part waves"
+    }
+  ],
+  "rejected": [
+    {
+      "reason": "non-Asian or mixed-heritage appearance outside revised casting scope",
+      "workspace_copy": false
+    }
+  ],
+  "next_action": "User marks each route as keep, refine, or reject before taste.md identity lock."
+}

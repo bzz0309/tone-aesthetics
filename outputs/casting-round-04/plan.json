@@ -1,0 +1,18 @@
+{
+  "round": "casting-round-04",
+  "base_identity": "../casting-round-03/candidate-d2-sleek-arc.png",
+  "status": "awaiting_human_selection",
+  "variants": [
+    {
+      "id": "D2-V1",
+      "file": "candidate-d2-v1-editorial-edge.png",
+      "direction": "cold editorial"
+    },
+    {
+      "id": "D2-V2",
+      "file": "candidate-d2-v2-natural-current.png",
+      "direction": "natural relaxed"
+    }
+  ],
+  "next_action": "Select original D2, V1, or V2 before updating taste.md and character lock assets."
+}

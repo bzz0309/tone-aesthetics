@@ -1,0 +1,13 @@
+{
+  "round": 12,
+  "purpose": "Character 01 multi-angle identity calibration",
+  "canonical_front": "../casting-round-10-structural-blend-test/character-01-structural-blend-test-v2-short-midface-round-cheeks.png",
+  "views": [
+    "character-01-left-45.png",
+    "character-01-right-45.png",
+    "character-01-left-profile.png",
+    "character-01-right-profile.png"
+  ],
+  "method": "four independent built-in identity-preserving edits from the same canonical front portrait",
+  "status": "awaiting_human_multiview_review"
+}
