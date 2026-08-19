@@ -4,6 +4,8 @@
 
 当前核心成果由两份文件组成：[outputs/taste.md](./outputs/taste.md) 负责原创亚洲成年人物身份、人设与广告世界，[outputs/styling-library.md](./outputs/styling-library.md) 负责按照性别、品牌调性、人物行为与场景匹配完整造型。只使用 `taste.md` 时仍可调用其中的内置回退 Look。
 
+根目录 [SKILL.md](./SKILL.md) 是 OpenClaw/Codex 的轻量执行入口：它按任务读取上述两份规范，而不是把人物与造型规则合并成一个大文件。
+
 默认图片生成模型为 **GPT Image 2**，项目内逻辑名称使用 `gpt-image2`。模型不可用、调用失败或环境只提供其他模型时允许自动切换／降级；每轮必须记录请求模型、实际模型和回退原因。
 
 ## 当前能力
@@ -39,3 +41,16 @@
 ## 使用提示
 
 生成新人物时先阅读 `outputs/taste.md` 锁定身份和人设，再读取 `outputs/styling-library.md` 选择对应性别的造型路线和具体 Look。默认只生成原创亚洲成年人，不复制现实人物或明星身份。参考图只用于抽象结构和造型语言；公开投放前必须重新确认图片、服装图形和品牌资产的使用权。
+
+## OpenClaw 安装测试
+
+公开仓库可以直接安装到当前 OpenClaw 工作区：
+
+```bash
+openclaw skills install git:bzz0309/tone-aesthetics@main --as tone-aesthetics
+openclaw skills info tone-aesthetics
+openclaw skills check
+openclaw skills list --eligible
+```
+
+安装后开启新会话，再用真实广告需求测试。首次测试不要添加 `--global`、`--force` 或自动发布动作。
