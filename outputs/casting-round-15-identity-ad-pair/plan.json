@@ -1,0 +1,20 @@
+{
+  "round": 15,
+  "mode": "identity-ad-pair",
+  "character": "original-f05-p01-young-alt-musician",
+  "age_band": "20-23 adult",
+  "culture_region": "east-asia",
+  "identity_source": "f05-p01-identity-portrait-v1.png",
+  "persona": "P01 COASTAL / STREET ALT MUSICIAN",
+  "wardrobe_source": "taste.md LOOK 07 Y2K RINGER MODULE",
+  "assets": [
+    {
+      "role": "A identity portrait",
+      "file": "f05-p01-identity-portrait-v1.png"
+    },
+    {
+      "role": "B advertising world",
+      "file": "f05-p01-ad-world-livehouse-street-v1.png"
+    }
+  ]
+}
