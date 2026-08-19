@@ -21,7 +21,7 @@ Do not use images under `outputs/reference_*` as generation inputs, publishable 
 
 For every task, locate and read these headings in `outputs/taste.md`:
 
-1. `0. 使用原则`, especially `0.2 单文件调用协议` and `0.3 默认图像模型`
+1. `0. 使用原则`, especially `0.2 协同调用协议` and `0.3 默认图像模型`
 2. `1. 品牌人物矩阵`
 3. `6.5 人设与广告世界`
 4. `7. 双人物体系身份提示词与主题造型模块`

@@ -3,8 +3,8 @@
 ## 项目状态
 
 项目名：调性审美  
-核心文件：`outputs/taste.md` v0.18 + `outputs/styling-library.md` v0.5
-当前阶段：造型库已扩展到女性 WST01–WST10、男性 MST01–MST06；新增层构街头、日系亚文化、都市朋克、暗黑浪漫与男性日系朋克，可继续用品牌主题做交叉测试。
+核心文件：`outputs/taste.md` v0.19 + `outputs/styling-library.md` v0.5
+当前阶段：`taste.md` 已完成 skill 路由式精简，造型细节只在 `styling-library.md` 维护；女性 WST01–WST10、男性 MST01–MST06 保持不变，可用同一需求对精简前后版本做 A/B 测试。
 
 安装入口：根目录 `SKILL.md`，skill 名称为 `tone-aesthetics`。入口按任务读取 `taste.md`、`styling-library.md` 和必要的 `methods.md` 章节，不复制详细规范。
 
@@ -45,6 +45,8 @@
 - 当前公开仓库：`https://github.com/bzz0309/tone-aesthetics`
 - 默认分支：`main`
 - 根目录 `SKILL.md` 使公开仓库可以通过 `git:bzz0309/tone-aesthetics@main` 安装测试；每次同步状态以 `git status` 和远端 `main` 为准，不在交接文档固化易过期的提交哈希。
+- 精简前 v0.18 已备份并推送为标签 `pre-slim-v0.18-20260819`，目标提交为 `ee1fad2a8e219c44b38539afcc4f23141d4ffbb9`。
+- A/B 测试时分别安装为 `tone-aesthetics-v018` 与 `tone-aesthetics-v019`，每组使用新会话、同一模型和同一原始提示词。
 - `outputs/reference_*` 含研究阶段参考素材。仓库已经公开，应尽快完成权利审查或从公开历史中移除；skill 默认禁止加载这些图片为生成输入。
 
 ## 安全与一致性

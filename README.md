@@ -2,7 +2,7 @@
 
 面向品牌广告与 Makaron 投放素材的人物调性、妆发、穿搭和图像生成规范项目。
 
-当前核心成果由两份文件组成：[outputs/taste.md](./outputs/taste.md) 负责原创亚洲成年人物身份、人设与广告世界，[outputs/styling-library.md](./outputs/styling-library.md) 负责按照性别、品牌调性、人物行为与场景匹配完整造型。只使用 `taste.md` 时仍可调用其中的内置回退 Look。
+当前核心成果由两份文件组成：[outputs/taste.md](./outputs/taste.md) v0.19 负责原创亚洲成年人物身份、人设与广告世界，[outputs/styling-library.md](./outputs/styling-library.md) v0.5 负责按照性别、品牌调性、人物行为与场景匹配完整造型。两份文件职责分离，造型细节只在造型库维护。
 
 根目录 [SKILL.md](./SKILL.md) 是 OpenClaw/Codex 的轻量执行入口：它按任务读取上述两份规范，而不是把人物与造型规则合并成一个大文件。
 
@@ -25,7 +25,7 @@
 
 ## 目录
 
-- `outputs/taste.md`：人物身份、人设与广告世界规范源，并保留单文件回退 Look。
+- `outputs/taste.md`：人物身份、人设、广告世界、提示词与 QC 规范源。
 - `outputs/styling-library.md`：造型路线、具体 Look、发色、妆容、配饰、道具与自动匹配规则源。
 - `outputs/casting-round-*`：历轮人物生成、提示词和质量记录。
 - `outputs/casting-round-13-male-taste-test`：男性 M02 单文件链路与全身穿搭测试。
@@ -54,3 +54,12 @@ openclaw skills list --eligible
 ```
 
 安装后开启新会话，再用真实广告需求测试。首次测试不要添加 `--global`、`--force` 或自动发布动作。
+
+精简前的 v0.18 已冻结为 `pre-slim-v0.18-20260819`。需要比较精简前后行为时，用不同名称并存安装：
+
+```bash
+openclaw skills install git:bzz0309/tone-aesthetics@pre-slim-v0.18-20260819 --as tone-aesthetics-v018
+openclaw skills install git:bzz0309/tone-aesthetics@main --as tone-aesthetics-v019
+```
+
+分别开启新会话，固定图片模型、原始需求、宽高比和交付数量，只切换 skill。比较路线选择、因果场景、完整提示词和最终 QC；图片随机性不应被误判为规则变化。
